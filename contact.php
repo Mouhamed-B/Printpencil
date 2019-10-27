@@ -23,7 +23,7 @@ require 'header.php';
     <?nav_stacked_menu($table);?>
     <div class="tab-content col-md-10">
       <div class="tab-pane active" id="form">
-        <form  action="dashboard.php" method="post">
+        <form  action="functions.php" method="post">
           <div class="form-group">
             <label for="a">Nom :</label>
             <input id="a" required="required" class="form-control" type="text" name="nom">  
