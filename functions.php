@@ -1,5 +1,5 @@
 <?php
-function nav_stacked_menu(array $table, $bodyTitle=null)
+function nav_stacked_menu(array $table)
 {
 	$active = " class=\"active\" ";
 	echo "<ul class=\" nav nav-stacked nav-pills col-md-2 menu\">\n";
@@ -8,5 +8,6 @@ function nav_stacked_menu(array $table, $bodyTitle=null)
 	$active=null;
 	}
 	echo "</ul>";
-}?>
+}
 
+?>
