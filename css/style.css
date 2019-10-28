@@ -1,0 +1,89 @@
+html, body {
+	height: 100%;
+	margin: 0; padding: 0;
+}
+
+body {
+	display : table;
+	width: 100%;
+	}
+
+footer {
+	color: white;
+	display : table-row;
+	background-color: #222;
+    border-color: #080808;
+    height: 100px;
+    width: 100%;
+	margin-top: 0;
+}
+
+ul#ind_ul
+{
+	position: relative;
+	right: 2%
+}
+
+div#menu{
+	font-size: 1.1em;
+}
+
+form{
+	width: 60%;
+	position: relative;
+	right: auto;
+	left: auto;
+}
+
+.mgb{
+	margin-bottom: 0px;
+}
+
+.menu {
+	border-right: 1px solid grey;
+	height: 100%;
+}
+@media screen and  (max-width: 991px)
+{
+	.menu
+	{
+		border-right: none;
+		border-bottom: 1px solid grey;
+	}
+}
+a:hover{
+	text-decoration: underline;
+}
+
+ul.list-unstyled{
+	width: 60%;
+	font-size: 1.1em;
+	border: 2px dashed #ccc;
+}
+
+.mapouter{
+	position:relative;
+	text-align:right;
+	height:500px;
+	width:900px;
+}
+.gmap_canvas{
+	overflow:hidden;
+	background:none!important;
+	height:500px;
+	width: 900px;
+	
+}
+
+ul#cvis img{
+	font-size: 1.1em;
+}
+
+.content{
+	width: all;
+}
+
+button[name="cmd"]{
+	position: relative;
+	left: 30%;
+}
